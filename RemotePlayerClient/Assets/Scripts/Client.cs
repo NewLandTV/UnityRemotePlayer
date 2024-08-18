@@ -10,7 +10,7 @@ public class Client : MonoBehaviour
     {
         socket = new Socket(AddressFamily.InterNetwork, SocketType.Stream, ProtocolType.Tcp);
 
-        socket.Connect("192.168.0.5", 2894);
+        socket.Connect("xxx.xxx.xxx.xxx", 2894);
     }
 
     private void OnApplicationQuit()
